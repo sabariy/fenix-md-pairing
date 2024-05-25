@@ -13,9 +13,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DGXeon/Xeon-PairCode.git"
+    "url": "git+https://github.com/xoulfff/Xoulxy-PairCode.git"
   },
-  "author": "DGXeon",
+  "author": "XOULXY",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -29,7 +29,7 @@
     "qrcode-terminal": "^0.12.0"
   },
   "bugs": {
-    "url": "https://github.com/DGXeon/Xeon-PairCode/issues"
+    "url": "https://github.com/XOULXY/XOULXY-PairCode/issues"
   },
-  "homepage": "https://github.com/DGXeon/Xeon-PairCode#readme"
+  "homepage": "https://github.com/XOULXY/XOULXY-PairCode#readme"
 }
