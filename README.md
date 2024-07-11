@@ -1,2 +1,2 @@
-# Xeon-PairCode
-Pair code generator for whatsapp bots
+# Fenix Md-PairCode
+Pair code
