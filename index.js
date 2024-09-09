@@ -87,18 +87,11 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
         const { connection, lastDisconnect } = s
         if (connection == "open") {
             await delay(1000 * 10)
-            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🪀Support/Contact Developer\n\n\n⎆Donate: https://telegra.ph/file/ff20fe80e4765d14301c3.jpg\n\n⎆YouTube: https://youtube.com/@xoul-ser\n\n⎆Telegram Channel: https://t.me/xoulxy\n\n⎆Telegram Chat: https://t.me/+AYOyJflnt-AzNGFl\n\n⎆WhatsApp Gc1: https://chat.whatsapp.com/BxR0LrCkAVKGHriVvo7sKy\n\n⎆WhatsApp Gc2: https://chat.whatsapp.com/BxR0LrCkAVKGHriVvo7sKy\n\n⎆WhatsApp Gc3: https://chat.whatsapp.com/BxR0LrCkAVKGHriVvo7sKy\n\n⎆WhatsApp Pm: Wa.me/919633605648\n\n⎆Instagram: https://instagram.com/xoulxy\n\n⎆GitHub: https://github.com/xoulfff/\n\n⎆Blog: https://dreamguyxeonfiles.blogspot.com/2022/05/bots%20whatsapp%20mods.html?m=1\n\n\n` });
+            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `𝘛𝘩𝘢𝘯𝘬 𝘠𝘰𝘶 𝘍𝘰𝘳 𝘊𝘩𝘰𝘰𝘴𝘪𝘯𝘨 𝘍𝘦𝘯𝘪𝘹 𝘔𝘥\n\n 𝘋𝘰𝘯'𝘵 𝘚𝘩𝘢𝘳𝘦 𝘠𝘰𝘶 𝘚𝘦𝘴𝘴𝘪𝘰𝘯 𝘐𝘥 𝘞𝘪𝘵𝘩 𝘌𝘯𝘺𝘰𝘯𝘦` });
             let sessionXeon = fs.readFileSync('./sessions/creds.json');
             await delay(1000 * 2) 
              const xeonses = await  XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: `application/json`, fileName: `creds.json` })
-             await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `⚠️Do not share this file with anybody⚠️\n
-┌─❖
-│ Ohayo 😽
-└┬❖  
-┌┤✑  Thanks for using Fenix Md
-│└────────────┈ ⳹      
-
-└─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
+             await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `𝘛𝘩𝘢𝘯𝘬 𝘠𝘰𝘶 𝘍𝘰𝘳 𝘊𝘩𝘰𝘰𝘴𝘪𝘯𝘨 𝘍𝘦𝘯𝘪𝘹 𝘔𝘥\n\n 𝘋𝘰𝘯'𝘵 𝘚𝘩𝘢𝘳𝘦 𝘠𝘰𝘶 𝘚𝘦𝘴𝘴𝘪𝘰𝘯 𝘐𝘥 𝘞𝘪𝘵𝘩 𝘌𝘯𝘺𝘰𝘯𝘦` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
         }
