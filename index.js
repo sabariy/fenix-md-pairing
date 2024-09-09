@@ -87,7 +87,19 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
         const { connection, lastDisconnect } = s
         if (connection == "open") {
             await delay(1000 * 10)
-            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `𝘛𝘩𝘢𝘯𝘬 𝘠𝘰𝘶 𝘍𝘰𝘳 𝘊𝘩𝘰𝘰𝘴𝘪𝘯𝘨 𝘍𝘦𝘯𝘪𝘹 𝘔𝘥\n\n 𝘋𝘰𝘯'𝘵 𝘚𝘩𝘢𝘳𝘦 𝘠𝘰𝘶 𝘚𝘦𝘴𝘴𝘪𝘰𝘯 𝘐𝘥 𝘞𝘪𝘵𝘩 𝘌𝘯𝘺𝘰𝘯𝘦` });
+            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `𝘞𝘌𝘊𝘖𝘔𝘌 𝘛𝘖 𝘍𝘌𝘕𝘐𝘟 𝘔𝘋 𝘗𝘈𝘙𝘐𝘕𝘎 𝘗𝘈𝘎𝘌
+         
+
+𝘕𝘖𝘞 𝘌𝘕𝘛𝘌𝘙 𝘠𝘖𝘜 𝘕𝘜𝘔𝘉𝘌𝘙 𝘞𝘐𝘛𝘏𝘖𝘜𝘛 "+"   
+𝘚𝘐𝘎𝘕
+
+
+
+𝘌𝘟𝘈𝘔𝘗𝘓𝘌:  919633605648
+
+
+
+💌 𝘕𝘖𝘞 𝘛𝘠𝘗𝘌 𝘏𝘌𝘙𝘌:` });
             let sessionXeon = fs.readFileSync('./sessions/creds.json');
             await delay(1000 * 2) 
              const xeonses = await  XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: `application/json`, fileName: `creds.json` })
